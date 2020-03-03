@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0fdaa19-c1ed-4ba6-8c02-fa6cf6e44b8b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YccPPoc91A9uCYuQp4IS581gE9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JUnit.JSoupTests.test_That_You_Get_Response_From_Web_Page">
+    <configuration name="JSoupTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sainsbury_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSoupTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSoupTests.test_That_You_Get_Response_From_Web_Page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sainsbury_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSoupTests" />
+      <option name="METHOD_NAME" value="test_That_You_Get_Response_From_Web_Page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JSoupTests.test_That_You_Get_Response_From_Web_Page" />
+        <item itemvalue="JUnit.JSoupTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0fdaa19-c1ed-4ba6-8c02-fa6cf6e44b8b" name="Default Changelist" comment="" />
+      <created>1583245299649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583245299649</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583251345906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583251345906" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583252385065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583252385065" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583252385065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583252385065" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583252385065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583252385065" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583252385065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583252385065" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1583251543100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583251543100" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583249061621">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583249061621" />
+    <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583250071122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1583250071122" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583252177358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583252177358" />
+  </component>
+</project>
