@@ -32,7 +32,15 @@ public class ScrapingTests {
     public void test_That_You_Can_Go_To_Product_Info_Page() throws IOException {
         Element product = scraper.getProduct(doc);
         Document productInfo = scraper.goToProductInfo(product);
-        Assertions.assertNotNull(productInfo);
+        Assertions.assertEquals(productInfo.title(), "Sainsbury's Strawberries 400g | Sainsbury's");
     }
 
+    @Test
+    public void test_That_You_Can_Get_A_Product_Name() throws IOException {
+        Element product = scraper.getProduct(doc);
+        Document productInfo = scraper.goToProductInfo(product);
+        Element name = productInfo.getElementsByClass("productSummary").first();
+
+       Assertions.assertNotNull(name);
+    }
 }

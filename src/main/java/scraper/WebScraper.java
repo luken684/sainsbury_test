@@ -9,8 +9,8 @@ import java.io.IOException;
 public class WebScraper {
 
     public Element getProduct(Document doc) {
-        doc.getElementsByClass("product");
-        return doc;
+      Element product =  doc.getElementsByClass("product").first();
+        return product;
     }
 
     public Document goToProductInfo(Element product) throws IOException {
