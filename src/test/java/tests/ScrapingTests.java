@@ -27,5 +27,12 @@ public class ScrapingTests {
      Element product = scraper.getProduct(doc);
         Assertions.assertNotNull(product);
     }
-    
+
+    @Test
+    public void test_That_You_Can_Go_To_Product_Info_Page() throws IOException {
+        Element product = scraper.getProduct(doc);
+        Document productInfo = scraper.goToProductInfo(product);
+        Assertions.assertNotNull(productInfo);
+    }
+
 }
