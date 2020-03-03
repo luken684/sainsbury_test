@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fdaa19-c1ed-4ba6-8c02-fa6cf6e44b8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSoupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JSoupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JSoupTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.JSoupTests.test_That_You_Can_Get_Sainsbury_Page">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="scraper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ScrapingTests.test_that_you_can_get_product">
     <configuration name="JSoupTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sainsbury_test" />
       <option name="PACKAGE_NAME" value="tests" />
@@ -76,8 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScrapingTests.test_that_you_can_get_product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sainsbury_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ScrapingTests" />
+      <option name="METHOD_NAME" value="test_that_you_can_get_product" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScrapingTests.test_that_you_can_get_product" />
         <item itemvalue="JUnit.JSoupTests.test_That_You_Can_Get_Sainsbury_Page" />
         <item itemvalue="JUnit.JSoupTests.test_That_You_Get_Response_From_Web_Page" />
         <item itemvalue="JUnit.JSoupTests" />
@@ -110,26 +132,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583263811544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583263811544" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583251345906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583251345906" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583262468657">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583264051277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583262468657" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583262468657">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583264051277" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583264051277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583262468657" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583262468657">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583264051277" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583264051277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583262468657" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583262468657">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583264051277" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583264051277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583262468657" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583264051277" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1583251543100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -142,9 +168,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1583250071122" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583252177358">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583263885365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583252177358" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583263885365" />
   </component>
 </project>
