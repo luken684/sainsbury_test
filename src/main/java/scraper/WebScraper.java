@@ -33,4 +33,10 @@ public class WebScraper {
         Double price = Double.parseDouble(pricePerUnit);
         return price;
     }
+
+    public String getProductDescription(Document productInfo) {
+        String description = productInfo.getElementsByClass("productText")
+                .get(0).getElementsByTag("p").text();
+        return description;
+    }
 }

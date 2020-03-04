@@ -53,6 +53,14 @@ public class ScrapingTests {
         Double pricePerUnit = scraper.getProductPrice(productInfo);
         Assertions.assertEquals(1.75, pricePerUnit);
     }
+    @Test
+    public void test_That_You_Can_Get_Products_Description() throws IOException {
+        Elements products = scraper.getProducts(doc);
+        Element product = products.get(0);
+        Document productInfo = scraper.goToProductInfo(product);
+        String description = scraper.getProductDescription(productInfo);
+        Assertions.assertEquals("by Sainsbury's strawberries   ", description);
+    }
 
 
 }
