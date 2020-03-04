@@ -43,6 +43,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,20 +54,10 @@
       <recent name="scraper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ScrapingTests.test_That_You_Can_Get_A_Product_Name">
+  <component name="RunManager" selected="JUnit.ScrapingTests.test_That_You_Can_Get_Products_Price">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sainsbury_test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSoupTests.test_That_You_Can_Get_Sainsbury_Page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sainsbury_test" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.JSoupTests" />
-      <option name="METHOD_NAME" value="test_That_You_Can_Get_Sainsbury_Page" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +73,22 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ScrapingTests" />
       <option name="METHOD_NAME" value="test_That_You_Can_Get_A_Product_Name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapingTests.test_That_You_Can_Get_Products_Price" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sainsbury_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ScrapingTests" />
+      <option name="METHOD_NAME" value="test_That_You_Can_Get_Products_Price" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Products_Price" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_A_Product_Name" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Go_To_Product_Info_Page" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ScrapingTests.test_that_you_can_get_product" />
-        <item itemvalue="JUnit.JSoupTests.test_That_You_Can_Get_Sainsbury_Page" />
       </list>
     </recent_temporary>
   </component>
@@ -163,37 +170,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583251345906" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583270269405">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583323044053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583270269405" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583270269405">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583323044053" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583323044053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583270269405" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583270269389">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583323044053" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583323044053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583270269389" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583270269405">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583323044053" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583323044053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583270269405" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583323044053" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1583251543100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583251543100" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583261188501">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583320496421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583261188501" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583320496421" />
     <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583250071122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1583250071122" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583268863381">
+    <state x="413" y="120" key="extract.method.dialog" timestamp="1583321674980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583268863381" />
+    <state x="413" y="120" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1583321674980" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583322970031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583322970031" />
   </component>
 </project>

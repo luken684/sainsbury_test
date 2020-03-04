@@ -2,10 +2,11 @@ package tests;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import scraper.WebScraper;
+
 
 import java.io.IOException;
 
@@ -24,23 +25,34 @@ public class ScrapingTests {
 
     @Test
     public void test_that_you_can_get_product(){
-     Element product = scraper.getProduct(doc);
-        Assertions.assertNotNull(product);
+     Elements products = scraper.getProducts(doc);
+        Assertions.assertNotNull(products);
     }
 
     @Test
     public void test_That_You_Can_Go_To_Product_Info_Page() throws IOException {
-        Element product = scraper.getProduct(doc);
+        Elements products = scraper.getProducts(doc);
+        Element product = products.get(0);
         Document productInfo = scraper.goToProductInfo(product);
         Assertions.assertEquals(productInfo.title(), "Sainsbury's Strawberries 400g | Sainsbury's");
     }
 
     @Test
     public void test_That_You_Can_Get_A_Product_Name() throws IOException {
-        Element product = scraper.getProduct(doc);
+        Elements products = scraper.getProducts(doc);
+        Element product = products.get(0);
         Document productInfo = scraper.goToProductInfo(product);
-        Element name = productInfo.getElementsByClass("productSummary").first();
-
-       Assertions.assertNotNull(name);
+        String title = scraper.getProductName(productInfo);
+        Assertions.assertEquals("Sainsbury's Strawberries 400g", title);
     }
+    @Test
+    public void test_That_You_Can_Get_Products_Price() throws IOException {
+        Elements products = scraper.getProducts(doc);
+        Element product = products.get(0);
+        Document productInfo = scraper.goToProductInfo(product);
+        Double pricePerUnit = scraper.getProductPrice(productInfo);
+        Assertions.assertEquals(1.75, pricePerUnit);
+    }
+
+
 }
