@@ -39,4 +39,14 @@ public class WebScraper {
                 .get(0).getElementsByTag("p").text();
         return description;
     }
+
+    public String getKcal(Document productInfo) {
+        String kcal = productInfo.getElementsByClass("tableRow0").first()
+                .getElementsByClass("nutritionLevel1").first().text();
+        if (kcal.contains("kcal")) {
+            return kcal.substring(0,2);
+        } else {
+            return "N/A";
+        }
+    }
 }

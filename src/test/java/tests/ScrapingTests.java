@@ -62,5 +62,14 @@ public class ScrapingTests {
         Assertions.assertEquals("by Sainsbury's strawberries   ", description);
     }
 
+    @Test
+    public void test_That_You_Can_Get_Kcal() throws IOException {
+        Elements products = scraper.getProducts(doc);
+        Element product = products.get(0);
+        Document productInfo = scraper.goToProductInfo(product);
+        String kcal = scraper.getKcal(productInfo);
+        Assertions.assertEquals("33", kcal);
+    }
+
 
 }
