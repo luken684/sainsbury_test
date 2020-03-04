@@ -9,6 +9,7 @@ import scraper.WebScraper;
 
 
 import java.io.IOException;
+import java.math.BigDecimal;
 
 public class ScrapingTests {
 
@@ -50,7 +51,7 @@ public class ScrapingTests {
         Elements products = scraper.getProducts(doc);
         Element product = products.get(0);
         Document productInfo = scraper.goToProductInfo(product);
-        Double pricePerUnit = scraper.getProductPrice(productInfo);
+        BigDecimal pricePerUnit = scraper.getProductPrice(productInfo);
         Assertions.assertEquals(1.75, pricePerUnit);
     }
     @Test

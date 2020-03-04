@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a0fdaa19-c1ed-4ba6-8c02-fa6cf6e44b8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scraper/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scraper/WebScraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scraper/WebScraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scraper/WebScraper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ScrapingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ScrapingTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +41,28 @@
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="scraper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ScrapingTests.test_That_You_Can_Get_Kcal">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="sainsbury_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScrapingTests.test_That_You_Can_Get_A_Product_Name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sainsbury_test" />
       <extension name="coverage">
@@ -117,29 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrapingTests.test_That_You_Can_Go_To_Product_Info_Page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sainsbury_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ScrapingTests" />
-      <option name="METHOD_NAME" value="test_That_You_Can_Go_To_Product_Info_Page" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Kcal" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Products_Description" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Products_Price" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_A_Product_Name" />
-        <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Go_To_Product_Info_Page" />
       </list>
     </recent_temporary>
   </component>
@@ -173,46 +167,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1583324565741" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1583327056084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583327056084" />
     <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583263811544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583263811544" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583251345906">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583328168851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583251345906" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583325498344">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583328168851" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583334887326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583325498344" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583325498344">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583334887326" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583334887326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583325498344" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583325498344">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583334887326" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583334887326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583325498344" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583325498344">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583334887326" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583334887326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583325498344" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1583251543100">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583334887326" />
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1583328295963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583251543100" />
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1583328295963" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1583328472985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583328472985" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583320496421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583320496421" />
-    <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583250071122">
+    <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583328471501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1583250071122" />
+    <state x="408" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1583328471501" />
     <state x="413" y="120" key="extract.method.dialog" timestamp="1583321674980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="120" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1583321674980" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1583330670094">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583330670094" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583324822665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
