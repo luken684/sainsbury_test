@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fdaa19-c1ed-4ba6-8c02-fa6cf6e44b8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scraper/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scraper/WebScraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ScrapingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ScrapingTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
