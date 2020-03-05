@@ -24,15 +24,21 @@ public class Main {
             Document productPage = scraper.goToProductInfo(product);
             String  name = scraper.getProductName(productPage);
             String description = scraper.getProductDescription(productPage);
+            String kCalPer100 = scraper.getKcal(productPage);
             BigDecimal unitPrice = scraper.getProductPrice(productPage);
-            String kcalPer = scraper.getKcal(productPage);
 
             temp.put("Product Name", name);
             temp.put("Description", description);
             temp.put("Price per Unit", unitPrice);
-            temp.put("Kcal per 100g", kcalPer);
+            temp.put("Kcal per 100g", kCalPer100);
             productList.add(temp);
         }
+        JSONObject prices = new JSONObject();
+        BigDecimal totalPrice = scraper.getTotalPrice(products);
+        prices.put("Total Price", totalPrice);
+        productList.add(totalPrice);
+
+
         System.out.println(productList.toString());
 
 

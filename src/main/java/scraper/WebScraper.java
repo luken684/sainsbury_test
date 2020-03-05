@@ -31,8 +31,8 @@ public class WebScraper {
     public BigDecimal getProductPrice(Document productInfo) {
         Element pricing = productInfo.getElementsByClass("pricePerUnit").first();
         String pricePerUnit = pricing.getElementsByTag("p").text().substring(0,5).substring(1);
-        Double price = Double.parseDouble(pricePerUnit);
-        BigDecimal bd = new BigDecimal(price).setScale(2, RoundingMode.HALF_DOWN);
+        double price = Double.parseDouble(pricePerUnit);
+        BigDecimal bd = BigDecimal.valueOf(price).setScale(2, RoundingMode.HALF_DOWN);
         return bd;
     }
 
@@ -43,14 +43,26 @@ public class WebScraper {
     }
 
     public String getKcal(Document productInfo) {
-        Elements tables  = productInfo.getElementsByTag("table");
-        if(tables.isEmpty()){
-       return "N/A";
 
-        } else {
-            Element table = tables.get(0);
-            String kcal = table.getElementsByClass("tableRow0").first().getElementsByClass("nutritionLevel1").first().text();
-            return kcal.substring(0, 2);
+        Element kCalData = productInfo.select("td:contains(kcal)").first();
+
+        if (kCalData == null){
+            return "N/A";
+        }
+        else{
+            return kCalData.text().substring(0,2);
         }
     }
+
+    public BigDecimal getTotalPrice(Elements products) throws IOException {
+        WebScraper scraper = new WebScraper();
+        double totalPrice = 0.0;
+        for(Element product : products){
+          Document doc = scraper.goToProductInfo(product);
+         double price = scraper.getProductPrice(doc).doubleValue();
+            totalPrice +=price;
+        } BigDecimal bigDecimal = BigDecimal.valueOf(totalPrice).setScale(2,RoundingMode.HALF_DOWN);
+        return bigDecimal;
+    }
+
 }

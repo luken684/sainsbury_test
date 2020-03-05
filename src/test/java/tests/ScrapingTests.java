@@ -10,6 +10,7 @@ import scraper.WebScraper;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 
 public class ScrapingTests {
 
@@ -71,6 +72,25 @@ public class ScrapingTests {
         String kcal = scraper.getKcal(productInfo);
         Assertions.assertEquals("33", kcal);
     }
+    @Test
+    public void test_That_Product_With_No_Kcal_Returns_NA() throws IOException {
+        Elements products = scraper.getProducts(doc);
+        Element product = products.get(11);
+        Document productInfo = scraper.goToProductInfo(product);
+        String kcal = scraper.getKcal(productInfo);
+        Assertions.assertEquals("N/A", kcal);
+    }
+
+    @Test
+    public void test_That_You_Can_Get_Total_Price() throws IOException {
+        Elements products =  scraper.getProducts(doc);
+        BigDecimal totalPrice = scraper.getTotalPrice(products);
+        Assertions.assertEquals(39.50, totalPrice);
+
+    }
+
+
+
 
 
 }
