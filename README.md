@@ -1,6 +1,8 @@
 #**WEB SCRAPING TEST**
 Completed Web Scraping Test.
 
+This was developed using IntelliJ.
+
 Once given the assignment I researched different web scraping tools and their accessibility.
 This led me to choose JSoup as my tool as it was readily available and included within the maven repository so all that was needed to do was add the library in the Project Structure.
 Other tools used include JUnit 5 for testing code and google's JSON simple for converting the elements into a JSON Array.
