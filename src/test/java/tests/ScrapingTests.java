@@ -1,4 +1,5 @@
 package tests;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -17,6 +18,7 @@ public class ScrapingTests {
     WebScraper scraper = new WebScraper();
 
     Document doc;
+
     {
         try {
             doc = Jsoup.connect("https://jsainsburyplc.github.io/serverside-test/site/www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries/berries-cherries-currants6039.html").get();
@@ -26,8 +28,8 @@ public class ScrapingTests {
     }
 
     @Test
-    public void test_that_you_can_get_product(){
-     Elements products = scraper.getProducts(doc);
+    public void test_that_you_can_get_product() {
+        Elements products = scraper.getProducts(doc);
         Assertions.assertNotNull(products);
     }
 
@@ -47,14 +49,16 @@ public class ScrapingTests {
         String title = scraper.getProductName(productInfo);
         Assertions.assertEquals("Sainsbury's Strawberries 400g", title);
     }
+
     @Test
     public void test_That_You_Can_Get_Products_Price() throws IOException {
         Elements products = scraper.getProducts(doc);
         Element product = products.get(0);
         Document productInfo = scraper.goToProductInfo(product);
         BigDecimal pricePerUnit = scraper.getProductPrice(productInfo);
-        Assertions.assertEquals(1.75, pricePerUnit);
+        Assertions.assertEquals("1.75", pricePerUnit.toString());
     }
+
     @Test
     public void test_That_You_Can_Get_Products_Description() throws IOException {
         Elements products = scraper.getProducts(doc);
@@ -72,6 +76,7 @@ public class ScrapingTests {
         String kcal = scraper.getKcal(productInfo);
         Assertions.assertEquals("33", kcal);
     }
+
     @Test
     public void test_That_Product_With_No_Kcal_Returns_NA() throws IOException {
         Elements products = scraper.getProducts(doc);
@@ -83,14 +88,11 @@ public class ScrapingTests {
 
     @Test
     public void test_That_You_Can_Get_Total_Price() throws IOException {
-        Elements products =  scraper.getProducts(doc);
+        Elements products = scraper.getProducts(doc);
         BigDecimal totalPrice = scraper.getTotalPrice(products);
-        Assertions.assertEquals(39.50, totalPrice);
+        Assertions.assertEquals("39.50", totalPrice.toString());
 
     }
-
-
-
 
 
 }

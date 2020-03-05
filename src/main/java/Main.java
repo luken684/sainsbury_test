@@ -18,11 +18,11 @@ public class Main {
 
         WebScraper scraper = new WebScraper();
         Elements products = scraper.getProducts(doc);
-        for(int x = 0; x < products.size(); x++){
+        for (int x = 0; x < products.size(); x++) {
             JSONObject temp = new JSONObject();
             Element product = products.get(x);
             Document productPage = scraper.goToProductInfo(product);
-            String  name = scraper.getProductName(productPage);
+            String name = scraper.getProductName(productPage);
             String description = scraper.getProductDescription(productPage);
             String kCalPer100 = scraper.getKcal(productPage);
             BigDecimal unitPrice = scraper.getProductPrice(productPage);
@@ -33,14 +33,15 @@ public class Main {
             temp.put("Kcal per 100g", kCalPer100);
             productList.add(temp);
         }
+
         JSONObject prices = new JSONObject();
         BigDecimal totalPrice = scraper.getTotalPrice(products);
-        prices.put("Total Price", totalPrice);
-        productList.add(totalPrice);
-
+        double vat = totalPrice.doubleValue() * (0.2);
+        BigDecimal roundedVat = BigDecimal.valueOf(vat).setScale(2);
+        prices.put("TOTAL", totalPrice);
+        prices.put("V.A.T", roundedVat);
+        productList.add(prices);
 
         System.out.println(productList.toString());
-
-
     }
 }

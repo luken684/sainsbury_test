@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/scraper/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scraper/WebScraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ScrapingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scraper/WebScraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scraper/WebScraper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ScrapingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ScrapingTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -56,10 +56,25 @@
       <recent name="scraper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ScrapingTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sainsbury_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapingTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sainsbury_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ScrapingTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,22 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrapingTests.test_That_You_Can_Get_Products_Description" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sainsbury_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ScrapingTests" />
-      <option name="METHOD_NAME" value="test_That_You_Can_Get_Products_Description" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScrapingTests.test_That_You_Can_Get_Total_Price" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sainsbury_test" />
       <extension name="coverage">
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Kcal" />
-        <item itemvalue="JUnit.ScrapingTests.test_That_Product_With_No_Kcal_Returns_NA" />
+        <item itemvalue="JUnit.ScrapingTests" />
         <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Total_Price" />
-        <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Products_Description" />
+        <item itemvalue="JUnit.ScrapingTests.test_That_You_Can_Get_Kcal" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ScrapingTests.test_That_Product_With_No_Kcal_Returns_NA" />
       </list>
     </recent_temporary>
   </component>
@@ -180,22 +179,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583328168851" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583422445297">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583423755267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583422445297" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583422445297">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583423755267" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583423755267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583422445297" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583422445297">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583423755267" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583423755267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583422445297" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583422445297">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583423755267" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583423755267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583422445297" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583423755267" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583344077279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,5 +239,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583324822665" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sainsbury_test$ScrapingTests.ic" NAME="ScrapingTests Coverage Results" MODIFIED="1583423505559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
   </component>
 </project>
